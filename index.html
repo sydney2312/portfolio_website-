@@ -4,15 +4,664 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sydney | Portfolio</title>
+    <meta
+        name="description"
+        content="Sydney's developer portfolio. Full-stack development, AI integration and database-driven web applications."
+    >
+
+    <title>Sydney | Full-Stack Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <h1>My Portfolio</h1>
+    <!-- Background effects -->
+    <div class="noise"></div>
+    <div class="cursor-glow"></div>
+
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            sydney<span>.</span>dev
+        </a>
+
+        <nav>
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="availability">
+            <span></span>
+            Available
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-grid"></div>
+
+            <div class="hero-copy">
+
+                <p class="eyebrow">
+                    <span>01</span>
+                    HELLO, I'M SYDNEY
+                </p>
+
+                <h1>
+                    I build
+                    <span>things</span>
+                    for the web.
+                </h1>
+
+                <p class="hero-description">
+                    Full-stack developer focused on web applications,
+                    databases and intelligent features that solve real problems.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="#work" class="primary-btn">
+                        See my work
+                        <span>↘</span>
+                    </a>
+
+                    <a href="#contact" class="text-btn">
+                        Let's talk
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Developer visual -->
+
+            <div class="hero-visual">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="orbit orbit-three"></div>
+
+                <div class="system-card">
+
+                    <div class="system-top">
+                        <span>SYDNEY.DEV</span>
+                        <span>2026</span>
+                    </div>
+
+                    <div class="system-center">
+
+                        <div class="core"></div>
+
+                        <div class="ring ring-a"></div>
+                        <div class="ring ring-b"></div>
+
+                    </div>
+
+                    <div class="system-bottom">
+                        <span>BUILD / LEARN / SHIP</span>
+                        <span>● ONLINE</span>
+                    </div>
+
+                </div>
+
+
+                <div class="floating-tag tag-one">
+                    LARAVEL
+                </div>
+
+                <div class="floating-tag tag-two">
+                    AI
+                </div>
+
+                <div class="floating-tag tag-three">
+                    MYSQL
+                </div>
+
+            </div>
+
+
+            <div class="scroll-note">
+                SCROLL TO EXPLORE
+                <span>↓</span>
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+
+        <section class="work section" id="work">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">
+                        <span>02</span>
+                        SELECTED WORK
+                    </p>
+
+                    <h2>
+                        Things I've<br>
+                        <em>built.</em>
+                    </h2>
+
+                </div>
+
+                <p class="section-intro">
+                    A few projects where I got to mix development,
+                    problem-solving and a little bit of creativity.
+                </p>
+
+            </div>
+
+
+
+            <!-- MOJOLUX -->
+
+            <article class="project featured">
+
+                <div class="project-meta">
+                    <span>01 / FEATURED</span>
+                    <span>2026</span>
+                </div>
+
+
+                <div class="project-image mojolux-image">
+
+                    <img
+                        src="assets/imagess/mojoluxhomepage.png"
+                        alt="MojoLux luxury dog fashion homepage"
+                    >
+
+                    <div class="image-overlay">
+
+                        <span>MOJOLUX</span>
+
+                        <span>↗</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="project-info">
+
+                    <div>
+
+                        <p class="project-type">
+                            E-COMMERCE / AI / WEB APP
+                        </p>
+
+                        <h3>
+                            MojoLux
+                        </h3>
+
+                    </div>
+
+
+                    <div class="project-details">
+
+                        <p>
+                            A luxury pet e-commerce platform built for the
+                            Trinidad &amp; Tobago market. It combines
+                            personalised product recommendations, Wag Club
+                            gamification, subscriptions and Stripe payments.
+                        </p>
+
+
+                        <div class="tech-list">
+
+                            <span>Laravel</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>Stripe</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="project-secondary-image">
+
+                    <img
+                        src="assets/imagess/mojoluxproducts.png"
+                        alt="MojoLux collections and personalised recommendations"
+                    >
+
+                    <span>
+                        PERSONALISED SHOPPING
+                    </span>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- OTHER PROJECTS -->
+
+            <div class="project-row">
+
+
+                <!-- CDSH -->
+
+                <article class="project small-project">
+
+                    <div class="project-meta">
+
+                        <span>02</span>
+
+                        <span>
+                            DATABASE / WEB APP
+                        </span>
+
+                    </div>
+
+
+                    <div class="abstract-visual cdsh-visual">
+
+                        <div class="database-icon">
+
+                            <i></i>
+                            <i></i>
+                            <i></i>
+
+                        </div>
+
+                        <span>
+                            CDSH_SYSTEM
+                        </span>
+
+                    </div>
+
+
+                    <div class="small-project-info">
+
+                        <h3>
+                            CDSH
+                        </h3>
+
+                        <p>
+                            Oracle APEX / SQL / Database Systems
+                        </p>
+
+                        <span class="arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- RECIPENEST -->
+
+                <article class="project small-project">
+
+                    <div class="project-meta">
+
+                        <span>03</span>
+
+                        <span>
+                            WEB DEVELOPMENT
+                        </span>
+
+                    </div>
+
+
+                    <div class="abstract-visual recipe-visual">
+
+                        <div class="recipe-lines">
+
+                            <b>
+                                RECIPENEST
+                            </b>
+
+                            <span>
+                                recipes / discover / create
+                            </span>
+
+                            <span>
+                                PHP + LARAVEL
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="small-project-info">
+
+                        <h3>
+                            RecipeNest
+                        </h3>
+
+                        <p>
+                            Laravel / PHP / MySQL / Bootstrap
+                        </p>
+
+                        <span class="arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section class="about section" id="about">
+
+            <div class="about-number">
+                03
+            </div>
+
+
+            <div class="about-heading">
+
+                <p class="eyebrow">
+                    A LITTLE ABOUT ME
+                </p>
+
+                <h2>
+                    Developer by trade.<br>
+                    <em>Problem solver by nature.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <p class="large-copy">
+                    I enjoy taking an idea, figuring out how it should work,
+                    then turning it into something people can actually use.
+                </p>
+
+                <p>
+                    My work spans full-stack web development, database systems
+                    and AI-powered features. I care about both sides of a
+                    project: making the technology work properly and making
+                    the experience feel good to use.
+                </p>
+
+
+                <div class="about-stats">
+
+                    <div>
+
+                        <strong>01</strong>
+
+                        <span>
+                            FULL-STACK<br>
+                            DEVELOPMENT
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>02</strong>
+
+                        <span>
+                            DATABASE<br>
+                            SYSTEMS
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>03</strong>
+
+                        <span>
+                            AI<br>
+                            INTEGRATION
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             SKILLS
+        ========================== -->
+
+        <section class="skills section" id="skills">
+
+            <div class="section-heading compact">
+
+                <div>
+
+                    <p class="eyebrow">
+                        <span>04</span>
+                        TOOLKIT
+                    </p>
+
+                    <h2>
+                        What I<br>
+                        <em>work with.</em>
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-list">
+
+
+                <div class="skill-row">
+
+                    <span class="skill-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Frontend
+                    </h3>
+
+                    <p>
+                        HTML / CSS / JavaScript / Bootstrap
+                    </p>
+
+                </div>
+
+
+
+                <div class="skill-row">
+
+                    <span class="skill-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Backend
+                    </h3>
+
+                    <p>
+                        Laravel / PHP / REST APIs
+                    </p>
+
+                </div>
+
+
+
+                <div class="skill-row">
+
+                    <span class="skill-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Databases
+                    </h3>
+
+                    <p>
+                        MySQL / SQL / Oracle / phpMyAdmin
+                    </p>
+
+                </div>
+
+
+
+                <div class="skill-row">
+
+                    <span class="skill-number">
+                        04
+                    </span>
+
+                    <h3>
+                        Intelligent Systems
+                    </h3>
+
+                    <p>
+                        AI recommenders / rule-based systems / AI integration
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section class="contact section" id="contact">
+
+            <p class="eyebrow">
+                <span>05</span>
+                GET IN TOUCH
+            </p>
+
+
+            <h2>
+                Got an idea?<br>
+                <em>Let's talk.</em>
+            </h2>
+
+
+            <!-- CHANGE THIS EMAIL -->
+
+            <a
+                class="email-link"
+                href="mailto:your@email.com"
+            >
+                sydneyramnarace.inq@gmail.com
+                <span>↗</span>
+            </a>
+
+
+            <div class="contact-bottom">
+
+                <span>
+                    TRINIDAD &amp; TOBAGO
+                </span>
+
+                <div>
+
+                    <a
+                        href="https://github.com/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        GitHub ↗
+                    </a>
+
+                    <a href="#">
+                        LinkedIn ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <span>
+            © 2026 SYDNEY
+        </span>
+
+        <span>
+            BUILT WITH HTML / CSS / JS
+        </span>
+
+        <a href="#home">
+            BACK TO TOP ↑
+        </a>
+
+    </footer>
+
 
     <script src="js/script.js"></script>
+
 </body>
 </html>
